@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+	     <com.viewpagerindicator.TabPageIndicator
+	        android:id="@+id/menunewspager_tpi_indicator"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:layout_toLeftOf="@+id/menunewspager_iv_select"
+	        />
+	     <ImageView 
+	         android:id="@+id/menunewspager_iv_select"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:src="@drawable/item_select"
+	         android:layout_centerVertical="true"
+	         android:layout_alignParentRight="true"
+	         android:paddingLeft="10dp"
+	         android:paddingRight="10dp"
+	         />
+     </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/menunewspager_vp_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

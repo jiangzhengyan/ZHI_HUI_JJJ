@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<!-- scrollbars : 设置滚动条样式 -->
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/menunewsitempager_lv_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        ptr:ptrMode="both"
+        ></com.handmark.pulltorefresh.library.PullToRefreshListView>
+    
+</LinearLayout>

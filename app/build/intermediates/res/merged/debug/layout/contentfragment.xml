@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 填充 RadioButton按钮对应的界面-->
+    <FrameLayout 
+        android:id="@+id/contentfragment_fl_pagers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/contentfragment_rg_buttons"
+        ></FrameLayout>
+    
+    <RadioGroup
+        android:id="@+id/contentfragment_rg_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_tab_bg"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        >
+		<!-- checked : RadioButton是否被选中
+		     button :设置选中按钮的样式，@null不使用按钮
+		     drawableTop : 顶部添加图片
+		     drawablePadding ： 图片和文本之间的距离
+		-->
+        <RadioButton
+            android:id="@+id/contentfragment_rbtn_home"
+            android:text="首页" 
+            android:drawableTop="@drawable/selector_contentfragment_home_bg"
+            style="@style/RadioButtonStyle"
+            />
+
+        <RadioButton
+            android:id="@+id/contentfragment_rbtn_news"
+            android:text="新闻中心" 
+            android:drawableTop="@drawable/selector_contentfragment_news_bg"
+            style="@style/RadioButtonStyle"
+            />
+
+        <RadioButton
+            android:id="@+id/contentfragment_rbtn_video"
+            android:text="视频" 
+            android:drawableTop="@drawable/selector_contentfragment_video_bg"
+            style="@style/RadioButtonStyle"
+            />
+        
+        <RadioButton
+            android:id="@+id/contentfragment_rbtn_gov"
+            android:text="政务" 
+            android:drawableTop="@drawable/selector_contentfragment_gov_bg"
+            style="@style/RadioButtonStyle"
+            />
+        
+        <RadioButton
+            android:id="@+id/contentfragment_rbtn_setting"
+            android:text="设置" 
+            android:drawableTop="@drawable/selector_contentfragment_setting_bg"
+            style="@style/RadioButtonStyle"
+            />
+    </RadioGroup>
+
+</RelativeLayout>

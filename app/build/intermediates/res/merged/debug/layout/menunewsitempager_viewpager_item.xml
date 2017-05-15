@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/item_iv_icon"
+    android:src="@drawable/topnews_item_default"
+    android:background="@drawable/topnews_item_default"
+    android:scaleType="centerCrop"
+    >
+    
+    <!-- 
+    	前景：只是在控件的上方设置了一个图片，不是和控件是一体的
+    	背景：背景是跟控件一体的，会填充满整个控件，并且会随着控件的大小而改变
+    	scaleType : 设置图片的展示类型的
+    		centerCrop : 以imageview的圆心显示图片，放大/缩小图片，知道填充整个控件，如果图片有超出控件的部分，剪裁超出的部分
+     -->
+
+</ImageView>

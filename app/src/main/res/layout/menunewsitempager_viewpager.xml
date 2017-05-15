@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/viewpagerheight" >
+    
+    <com.itheima.zhbj98.view.RoolViewPager
+        android:id="@+id/menunewsitempager_vp_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewpagerheight"
+        ></com.itheima.zhbj98.view.RoolViewPager>
+    <!-- layout_alignBottom : 在哪个控件的底部，需要控件的id -->
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#aa000000"
+        android:layout_alignBottom="@+id/menunewsitempager_vp_viewpager"
+        >
+        <TextView 
+            android:id="@+id/menunewsitempager_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蜗居生活"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+        <!-- radius : 点的直径 
+             fillColor ： 移动点的颜色
+             pageColor ： 界面点的默认颜色
+             strokeColor ： 边框的颜色
+             strokeWidth ： 边框的宽度
+        -->
+        <com.viewpagerindicator.CirclePageIndicator
+	        android:id="@+id/menunewsitempager_cpi_indicator"
+	        android:padding="10dp"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        app:radius="3dp"
+	        app:fillColor="#FF0000"
+	        app:pageColor="#FFFFFF"
+	        app:strokeWidth="0dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="10dp"
+	        />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

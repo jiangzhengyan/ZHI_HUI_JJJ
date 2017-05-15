@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智慧jjj98</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_news_detial">NewsDetialActivity</string>
+    <string name="title_activity_collection">CollectionActivity</string>
+    <string name="title_activity_select_item">SelectItemActivity</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/guide_vp_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/guide_btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/selector_guide_btn_bg"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="开始体验"
+        android:textColor="@color/selector_guide_btn_textcolor"
+        android:textSize="15sp"
+        android:visibility="gone" 
+        android:onClick="start"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/guide_ll_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!--
+             <ImageView 
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/shape_guide_gray_dot"
+            android:layout_marginRight="10dp"
+            />
+            -->
+
+        </LinearLayout>
+        <ImageView 
+            android:id="@+id/guide_iv_reddot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_guide_red_dot"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="oval"
+    >
+    <!-- shape : 控制形状
+            rectangle ：矩形
+            oval ： 圆形
+            line ： 线
+            ring ： 环形
+     -->
+     <!-- solid ： 颜色 -->
+     <solid android:color="#FF0000"/>
+     <!-- size ： 设置宽高 -->
+     <size 
+         android:width="10dp"
+         android:height="10dp"
+         />
+
+</shape>

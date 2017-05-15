@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView 
+        android:id="@+id/selectitem_iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/select_item_back"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        />
+    
+    <!-- columnCount : 设置显示列数 
+         rowCount : 设置行数
+    -->
+    <com.itheima.zhbj98.view.MyGridLayout 
+        android:id="@+id/selectitem_gl_grid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_gravity="center_horizontal"
+        >
+        
+    </com.itheima.zhbj98.view.MyGridLayout>
+
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击选择频道"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/darker_gray"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    
+    <com.itheima.zhbj98.view.MyGridLayout 
+        android:id="@+id/selectitem_gl_grid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_gravity="center_horizontal"
+        >
+        
+    </com.itheima.zhbj98.view.MyGridLayout>
+</LinearLayout>

@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "D:\\work_space_studio\\ZHI_HUI_jjj\\lib_viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\default\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\f2a6e1df236fa008c1afef43b396c905d0448185\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\selector_guide_btn_textcolor.xml",
+        "source": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\src\\main\\res\\color\\selector_guide_btn_textcolor.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\selector_contentfragment_rbtn_textcolor.xml",
+        "source": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\src\\main\\res\\color\\selector_contentfragment_rbtn_textcolor.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\f2a6e1df236fa008c1afef43b396c905d0448185\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "D:\\work_space_studio\\ZHI_HUI_jjj\\lib_viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\default\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "D:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\jiang_yan\\.android\\build-cache\\214a52891b751ab41bf50485f28278552ab77efe\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    }
+]

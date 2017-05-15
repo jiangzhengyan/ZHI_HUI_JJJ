@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- 4.因为新闻中心，组图，新闻详情页面的标题栏样式是一样，只不过按钮不太一样，所以也是可有抽取出来，加载界面的时候隐藏显示按钮就可以了 -->
+    <!--  include : 将一个布局文件嵌入到当前布局文件中-->
+    <include layout="@layout/title_bar"/>
+    
+    <FrameLayout 
+        android:id="@+id/basepagerfragment_fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></FrameLayout>
+
+</LinearLayout>
