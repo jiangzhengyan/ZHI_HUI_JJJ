@@ -1,0 +1,4 @@
+#Tue May 16 02:05:44 CST 2017
+base.0=D\:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\work_space_studio\\ZHI_HUI_jjj\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
